@@ -62,17 +62,16 @@
         android:padding="16dp"/>
 
     <!-- Caption -->
-
     <TextView
         android:id="@+id/postCaption"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/rounded_background"
-        android:padding="8dp"
         android:text="Console Brokk Senggol dong!"
+        android:textSize="16sp"
         android:textColor="#FFFFFF"
-        android:textSize="16sp" />
+        android:background="@drawable/rounded_background"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"/>
 
     <View
         android:layout_width="0dp"
